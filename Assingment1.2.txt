@@ -7,6 +7,7 @@ Ans : 0 1 1
 2. You have 25 excel files with names as xx_1.xlsx, xx_2.xlsx,........xx_25.xlsx in a dir.
 Write a program to extract the contents of each excel sheet and make it one df.
 
+	install.packages("readxl")
 	library(readxl)
 	dir <- "Enter the directory of file here"
 	setwd(dir)
